@@ -1,4 +1,4 @@
-# Enterprise AI Knowledge Assistant
+# Enterprise AI Knowledge Assistant 
 
 A multi-tenant internal AI assistant for companies. Combines **RAG over
 company documents**, a **structured employee/HR database**, a **deterministic
