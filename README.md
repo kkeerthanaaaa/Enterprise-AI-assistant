@@ -147,7 +147,7 @@ simplified for clarity and should be hardened before real production use:
 - **Background jobs**: document processing runs via FastAPI `BackgroundTasks`;
   swap for Celery/RQ + Redis so uploads don't block and can retry on failure.
 - **Alembic migrations**: currently `Base.metadata.create_all` in the seed
-  script; add proper Alembic migrations for schema evolution.
+  script; add proper Alembic migrations for schema evolution. 
 - **Row-Level Security**: add Postgres RLS policies on `company_id` as a
   second, database-enforced layer of tenant isolation.
 - **Rate limiting & audit logging**: `audit_logs` table exists; wire up
