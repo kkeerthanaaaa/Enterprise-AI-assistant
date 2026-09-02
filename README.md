@@ -2,8 +2,7 @@
 
 A multi-tenant internal AI assistant for companies. Combines **RAG over
 company documents**, a **structured employee/HR database**, a **deterministic
-business-rule engine**, and **role-based access control** — not just a PDF
-chatbot.
+business-rule engine**, and **role-based access control** 
  
 ## Architecture
 
